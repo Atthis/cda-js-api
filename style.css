@@ -1,0 +1,18 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+#images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
